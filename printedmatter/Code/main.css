@@ -1,0 +1,41 @@
+/* Nav Bar */
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .nav-bar__list {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style: none;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-decoration: underline .26rem;
+    text-underline-offset: 5px;
+    
+    
+  }
+  
+  .nav-bar__list a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+  
+  .nav-bar__list a:hover {
+    background-color: black;
+    color: white;
+    padding:12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: black;
+}
+
+  .PMnav {
+      width: 1000px;
+      padding-left: 45px;
+  }
+
